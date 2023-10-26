@@ -1,0 +1,32 @@
+body{
+  background-image: url('../main/constelatoin.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  opacity: 0.8;
+}
+.abaut{
+  display: flex;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  background-color:#000000;
+  background-image: url('../main/constelatoin.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  margin-top: -6rem;
+
+}
+.about__paragraphy{
+  width: 80%; 
+  padding-left: 0.20rem;
+  color: azure;
+ 
+}
+.about__paragraphy p{
+  color: white;
+  font-weight: bold;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  padding-top: 2rem;
+}
