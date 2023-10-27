@@ -16,7 +16,7 @@
   margin-top: 1rem;
 }
 .header__navigation a{
-  color: white;
+  color:#00FF00;
   font-family: 'Pixelify Sans', sans-serif;
   text-decoration: none;
   margin-top: 1rem;
@@ -39,6 +39,18 @@
 }
 
 @media (max-width:700px){
+  #header__links{
+    display: none;
+  }
+} 
+@media (max-width:480px){
+  .header{
+    width: 130%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
   #header__links{
     display: none;
   }
