@@ -38,16 +38,14 @@
   border-radius: 50%;
 
 }
-@media (max-width:495px){
+@media (max-width:475px){
   .header{
-      width: 500px; 
-      /* border: solid red 4px; */
-   
+    width: 100%;
+    height: auto;
+    padding-bottom: 4rem;
   }
-}
-@media (max-width:400px){
-  
   #header__links{
     display: none;
   }
 }
+

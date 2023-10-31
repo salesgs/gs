@@ -1,5 +1,5 @@
 body{
-   background-image: url('../main/constelatoin.jpg'); 
+    background-image: url('../main/constelatoin.jpg');  
   background-size: cover;
   background-repeat: no-repeat; 
   opacity: 0.8;
@@ -8,17 +8,23 @@ body{
 .abaut{
   height: 850px;
 }
-.about__list{
+.about__list {
   display: flex;
   flex-direction: column;
   align-items: center ;
   
 }
-
+.about__list li{
+  /* border: solid red 2px;  */
+  text-align: center;
+  margin-left: -2rem;
+  color: #fff;
+}
 .about__list h2 {
   color: #00FF00;
   font-family: 'Pixelify Sans', sans-serif;
   font-size: 22px;
+  padding-top: 2rem;
 }
 
 .about__list h3{
@@ -28,28 +34,37 @@ body{
 
 }
 .abaut__ul li{
-  color: #F8F8FF;
+  /* color: #F8F8FF; */
   font-family: 'Pixelify Sans', sans-serif;
  font-size: 20px;
+  list-style: none;
 }
 #about__techs{
   border-radius: 50%;
-  width: 350px;
+  width: 180px;
+   margin-left: 1rem; 
 }
-@media(max-width:1220px){
-  .about__list h3{
-     padding-left: 4rem;
+
+@media(max-width:1368px){
+ .about__list{
+  height: auto;
+  width: 100%; 
+}
+.about__list h3{
+   padding: 4rem 2rem 2rem 2rem ;  
+   font-size: 16px;
+   
+}
+ .abaut__ul{
+    display: flex;
+    justify-content: center;
+      
   }
 }
-@media(max-width:495px){
-  .about__list h3{
-    padding-left: 2rem;
-  }
-  .abaut{
-    /* border: solid red 4px; */
-  width: 500px; 
-  }
-  .abaut__ul{
-     margin-top: 1rem;
+
+@media (max-width:475px){
+  .abaut__ul li{
+    font-size: 18px;
+ 
   }
 }
