@@ -1,3 +1,29 @@
 /* .projects{
-  border: solid red 3px;
+  border: solid red 2px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+} 
+.projects__login{
+  border: solid blue 1px;
+  width: 300px;
+  height: 300px;
+  margin-left: 2rem;     */
+  /* background-image: url("../projects/log.png");
+  background-size: cover;
+  background-repeat: no-repeat; */
+  /* display: block;
+  margin-left: auto; */
+  /* margin-right: auto;
+  text-align: center;   */
+/* } */
+/* #login{
+  width: 100%;
+} */
+/* @media(max-width:500px){
+  .projects{
+    width: 100%;
+  }
 } */
