@@ -1,29 +1,70 @@
-/* .projects{
-  border: solid red 2px;
-  height: 350px;
+.projects h2{
+  color:#00FF00;
+  font-family: 'Pixelify Sans', sans-serif;
+  padding-bottom: 12px;
+}
+.projects{
+  margin-top: -24px;
+  /* border: solid red 2px; */
+  height: 700px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  
-} 
+}
 .projects__login{
-  border: solid blue 1px;
-  width: 300px;
-  height: 300px;
-  margin-left: 2rem;     */
-  /* background-image: url("../projects/log.png");
-  background-size: cover;
-  background-repeat: no-repeat; */
-  /* display: block;
-  margin-left: auto; */
-  /* margin-right: auto;
-  text-align: center;   */
-/* } */
-/* #login{
+  /* border: solid blue 2px; */
+  width: 50%;
+}
+#projects__login{
   width: 100%;
-} */
-/* @media(max-width:500px){
-  .projects{
-    width: 100%;
+}
+.projects__link{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.projects h3{
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 4px;
+}
+.projects h3 a{
+  color: #fff;
+  text-decoration: none;
+  border: solid 2px  #00FF00;
+  padding:1rem;
+  border-radius: 20px;
+
+}
+
+@media (max-width:1320px){
+  .projects__link{
+    flex-direction: column;
+    height: 120px;
+  } 
+  .projects__login{
+    height: 650px;
   }
-} */
+}
+@media (max-width:815px){
+  .projects__link h3 a{
+    font-size: 16px;  
+  }
+}
+@media (max-width:615px){
+  .projects__link h3 a{
+    font-size: 12px;  
+  }
+}
+
+@media (max-width:480px){
+  .projects__link h3 a{
+    font-size: 8px;  
+  }
+}
+@media (max-width:345px){
+  .projects__link h3 a{
+    font-size: 6px;  
+  }
+}

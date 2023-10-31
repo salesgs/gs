@@ -21,6 +21,9 @@
   font-family: 'Pixelify Sans', sans-serif;
   text-decoration: none;
   margin-top: 1rem;
+  border: solid #00FF00;
+  border-radius: 20px;
+  padding: 1rem;
 }
 .content{
   display: flex;
