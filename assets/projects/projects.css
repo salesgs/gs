@@ -6,7 +6,7 @@
 .projects{
   margin-top: -24px;
   /* border: solid red 2px; */
-  height: 700px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,6 +22,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
+ 
 }
 .projects h3{
   font-family: 'Pixelify Sans', sans-serif;
@@ -43,28 +44,31 @@
     flex-direction: column;
     height: 120px;
   } 
+ 
+ }
+ @media (max-width:1260px){
   .projects__login{
-    height: 650px;
+    width: 90%;
+  } 
+ 
+ }
+ @media(max-width:680px){
+  .projects__login{
+    width: 95%;  
   }
-}
-@media (max-width:815px){
+ }
+ @media (max-width:430px){
   .projects__link h3 a{
-    font-size: 16px;  
+    font-size: 18px;
   }
-}
-@media (max-width:615px){
+ }
+ @media (max-width:360px){
   .projects__link h3 a{
-    font-size: 12px;  
+    font-size: 14px;
   }
-}
-
-@media (max-width:480px){
+ }
+ @media (max-width:360px){
   .projects__link h3 a{
-    font-size: 8px;  
+    font-size: 8px;
   }
-}
-@media (max-width:345px){
-  .projects__link h3 a{
-    font-size: 6px;  
-  }
-}
+ }
