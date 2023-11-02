@@ -27,6 +27,19 @@
   text-align: center;
   text-decoration: none;
   font-family: 'Pixelify Sans', sans-serif;
+  transition: 2s;
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+@keyframes slidein{
+  from{
+    margin-left: 100%;
+    width: 500%;
+  }
+}
+.header__navigation a:hover{
+  border-color: 	#0000FF;
+  cursor: pointer;
 }
 .content{
 
