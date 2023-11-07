@@ -1,69 +1,38 @@
-body{
-    /* background-image: url('../main/constelatoin.jpg');   */
-  background-size: cover;
-  background-repeat: no-repeat; 
-
-}
-.abaut{
-  height: 850px;
-}
-.about__list {
-  display: flex;
-  flex-direction: column;
-  align-items: center ;
-  
-}
-.about__list li{
-  /* border: solid red 2px;  */
-  text-align: center;
-  margin-left: -2rem;
-  color: #fff;
-}
-.about__list h2 {
-  color: #00FF00;
-  font-family: 'Pixelify Sans', sans-serif;
-  font-size: 22px;
-  padding-top: 2rem;
-}
-
-.about__list h3{
-  color: #00FF00;
-  font-family: 'Pixelify Sans', sans-serif;
-  font-size: 18px;
-
-}
-.abaut__ul li{
-  /* color: #F8F8FF; */
-  font-family: 'Pixelify Sans', sans-serif;
- font-size: 20px;
-  list-style: none;
-}
-#about__techs{
-  border-radius: 50%;
-  width: 180px;
-   
-}
-
-@media(max-width:1368px){
- .about__list{
-  height: auto;
-  width: 100%; 
-}
-.about__list h3{
-   padding: 4rem 2rem 2rem 2rem ;  
-   font-size: 16px;
-   
-}
- .abaut__ul{
-    display: flex;
-    justify-content: center;
-      
+  .main{
+    display: grid;
+    grid-template-columns: 4fr 1fr 3fr 1fr ;
+    grid-template-rows: 5fr 1fr ;
+    gap: 40px;
+    border: solid black 1px;
   }
-}
-
-@media (max-width:475px){
-  .abaut__ul li{
-    font-size: 18px;
- 
+  .hobies{
+    height: 180px;
   }
-}
+  .video{
+    margin-top: 22px;
+    
+  }
+  @media (max-width:570px){
+    .main{
+      display: flex;
+      flex-direction: column;
+     
+    }
+    .about{
+      height: 180px;
+    }
+    .hobies{
+      height: 160px;
+    }
+    .video{
+    height: 180px;    
+    }
+  }
+
+  @media(max-width:290px){
+    .main{
+      display: flex;
+      flex-direction: column;
+
+    }
+  }
