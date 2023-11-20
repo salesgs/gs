@@ -1,38 +1,114 @@
-  .main{
-    display: grid;
-    grid-template-columns: 4fr 1fr 3fr 1fr ;
-    grid-template-rows: 5fr 1fr ;
-    gap: 40px;
-    border: solid black 1px;
-  }
-  .hobies{
-    height: 180px;
-  }
-  .video{
-    margin-top: 22px;
-    
-  }
-  @media (max-width:570px){
-    .main{
-      display: flex;
-      flex-direction: column;
-     
-    }
-    .about{
-      height: 180px;
-    }
-    .hobies{
-      height: 160px;
-    }
-    .video{
-    height: 180px;    
-    }
-  }
+.main{
+  min-height: auto;
+  /* Flex-box */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: 	#000000;
+}
+.item-main{
+  border: solid black 2px;
+  flex-basis: 550px;
+  height: 650px;
+  margin-top: 22px;
+}
+.about{
+  padding-top: 22px;
+  /* Flex-box */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: 			#363636;
+  border-radius: 20px;
+  opacity: 0.9;
+ }
+.about h1{
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+}
+.about-pargrayph {
+  font-size: 22px;
+  padding: 12px;
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+}
+.video{
+  height: 250px;
+  
+  /* box-model */
+  position: relative;
+  width: 100%; 
+}
+.video iframe{
+   position: absolute;
+  width: 100%;
+  height: 100%; 
+  border: none;  
 
-  @media(max-width:290px){
-    .main{
-      display: flex;
-      flex-direction: column;
+}
+ .projects{
+  background-color: #363636;
+  /* border-radius: 20px; */
+  opacity: 0.9;
+  height: 450px;
+  padding: 22px;
 
-    }
+}
+.projects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start ;
+  gap: 28px;
+  padding: 22px;
+}
+.projects h1{
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+}
+.login-projects h1{
+  text-align: center;
+  padding: 12px;
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+}
+#login{
+  width: 100%;
+}
+.links-login{
+  display: flex;
+  justify-content: space-around;
+
+  width: 220px;
+}
+.links-login button{
+  width: 100px;
+  height: 30px;
+  font-family: 'Nunito', sans-serif;
+  border: solid #00ff00;
+  cursor: pointer;
+  border-radius:12px; 
+  background-color: #87CEEB;
+}
+.links-login button a{
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold; 
+}
+@media (max-width:1152px){
+  .projects{
+    margin-top: 42px;
   }
+}
+@media(max-width:500px){
+.projects{
+  height: 400px;
+}
+}
+@media(max-width:490px){
+  .about-pargrayph {
+    text-align: center;
+  }
+}
