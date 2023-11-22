@@ -18,6 +18,7 @@ body{
 }
 .about{
   padding-top: 22px;
+  height: auto;
   /* Flex-box */
   display: flex;
   flex-direction: column;
@@ -36,10 +37,29 @@ body{
   padding: 12px;
   font-family: 'Nunito', sans-serif;
   color: #fff;
+} 
+.about h3{
+  text-align: center;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
 }
+.about-perfis{
+  margin-top: 12px;
+ /* Flex-box */
+  display: flex;
+  justify-content: space-around;
+
+}
+.about-perfis a{
+  color: #fff;
+  font-family: 'Nunito', sans-serif;  
+}
+/* #in{
+  width: 40%;
+} */
 .video{
   height: 250px;
-  
+   
   /* box-model */
   position: relative;
   width: 100%; 
@@ -47,9 +67,10 @@ body{
 .video iframe{
    position: absolute;
   width: 100%;
+ 
   height: 100%; 
   border: none;  
-  border: solid #ff0000;
+  
 }
  .projects{
   background-color: 			#111111;
@@ -70,7 +91,7 @@ body{
   gap: 28px;
   padding: 22px;
   border-radius: 20px;
-}
+ }
 .projects h1{
   color: #fff;
   font-family: 'Nunito', sans-serif;
@@ -84,7 +105,12 @@ body{
 }
 #login{
   width: 100%;
+  transition: transform 0.3s ease;
 }
+#login:hover{
+  transform: scale(1.1);
+}
+
 .links-login{
   align-items: center;
   width: 220px;
@@ -114,8 +140,14 @@ body{
 
 .description-login{ 
   padding: 12px;
-  width: auto;
-  
+  width: 300px;
+
+}
+.description-login h2{
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  padding: 12px;
 }
   .description-login p{
    
@@ -138,6 +170,9 @@ body{
 }
 .about{
   margin: 32px;
+}
+.description-login{
+  width: auto;
 }
 }
 @media(max-width:490px){
