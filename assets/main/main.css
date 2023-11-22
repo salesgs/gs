@@ -22,7 +22,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: 			#363636;
+  background-color: 			#111111;
   border-radius: 20px;
   opacity: 0.9;
  }
@@ -52,7 +52,8 @@ body{
 
 }
  .projects{
-  background-color:#D2691E;
+  background-color: 			#111111;
+
   /* border-radius: 20px; */
   opacity: 0.9;
   height: 450px;
@@ -68,6 +69,7 @@ body{
   justify-content: flex-start ;
   gap: 28px;
   padding: 22px;
+  border-radius: 20px;
 }
 .projects h1{
   color: #fff;
@@ -77,6 +79,7 @@ body{
   text-align: center;
   padding: 12px;
   font-family: 'Nunito', sans-serif;
+  
   color: #fff;
 }
 #login{
@@ -97,7 +100,7 @@ body{
   width: 140px;
   height: 70px;
   font-family: 'Nunito', sans-serif;
- 
+  
   cursor: pointer;
   border-radius:12px; 
   background-color: #F4A460;
@@ -112,12 +115,15 @@ body{
 .description-login{ 
   padding: 12px;
   width: auto;
+  
 }
   .description-login p{
-    color: #fff;
+   
+  color: #fff;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     text-align: center;
+    width:auto;
   }
 @media (max-width:1152px){
   .projects{
