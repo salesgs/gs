@@ -163,17 +163,21 @@ body{
   }
 }
 @media(max-width:500px){
-.projects{
-  height: auto;
-  margin: 32px;
-  border-radius: 20px;
-}
-.about{
-  margin: 32px;
-}
-.description-login{
-  width: auto;
-}
+  .projects{
+    height: auto;
+    margin: 32px;
+    border-radius: 20px;
+  }
+  .about{
+    margin: 32px;
+  }
+  .description-login{
+    width: auto;
+  }
+  .about-perfis{
+    padding: 12px;
+    padding-bottom: 12px;
+  }
 }
 @media(max-width:490px){
   .about-pargrayph {
