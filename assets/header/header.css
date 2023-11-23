@@ -87,11 +87,15 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-   font-size: 18px;
+    font-size: 18px;
+  }
+  .content{
+    padding-bottom: 2rem;
   }
   .content-photo{
     margin-top: -122px;
   } 
+  
 }
 
 

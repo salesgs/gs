@@ -26,7 +26,8 @@ body{
   background-color: 			#111111;
   border-radius: 20px;
   opacity: 0.9;
- }
+  ;
+}
 .about h1{
   text-align: center;
   font-family: 'Nunito', sans-serif;
@@ -54,9 +55,14 @@ body{
   color: #fff;
   font-family: 'Nunito', sans-serif;  
 }
-/* #in{
-  width: 40%;
-} */
+.about-videoTitle{
+  display: flex;
+  justify-content: center; 
+}
+.about-videoTitle h2{
+  color: #fff;
+  font-family: 'Nunito', sans-serif;  
+}
 .video{
   height: 250px;
    
@@ -65,7 +71,7 @@ body{
   width: 100%; 
 }
 .video iframe{
-   position: absolute;
+  position: absolute;
   width: 100%;
  
   height: 100%; 
@@ -162,6 +168,12 @@ body{
     margin-top: 42px;
   }
 }
+@media(max-width:520px){
+  .main{
+    border: solid blue 2px;
+    margin-top: 4rem;
+  }
+}
 @media(max-width:500px){
   .projects{
     height: auto;
@@ -183,9 +195,28 @@ body{
   .about-pargrayph {
     text-align: center;
   }
+  
 }
+@media(max-width:400px){
+   /*  */
+   .about{
+    padding: 22px;
+    width: 100%;
+  }
+  .video iframe{
+   padding: 12px;
+   margin-left: -12px;
+  } 
+}
+
 @media(max-width:380px){
  .about{
   height: auto;
  } 
+}
+@media(max-width:350px){
+  .about-videoTitle h2{
+    border: solid red 2px;
+    font-size: 18px;
+  }
 }
