@@ -170,7 +170,6 @@ body{
 }
 @media(max-width:520px){
   .main{
-    border: solid blue 2px;
     margin-top: 4rem;
   }
 }
