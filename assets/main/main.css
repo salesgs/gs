@@ -18,7 +18,7 @@ body{
 }
 .about{
   padding-top: 22px;
-  box-shadow: 10px 2px #008000;
+  box-shadow: 10px 2px #4b0082;
   height: auto;
   /* Flex-box */
   display: flex;
