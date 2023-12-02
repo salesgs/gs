@@ -47,17 +47,21 @@
   transition: 2s;
   animation-duration: 4s;
   animation-name: slidein;
+   box-shadow: 10px 10px 10px 10px #323232;
   /* flexbox */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center
 }
  #astronaut{
   width: 30px;
 }
+
 #hocket{
   width: 30px;
+  
 }
+
 #planet{
   width: 30px;
 }
@@ -88,29 +92,30 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
-  box-shadow: 20px 20px 10px 5px #323232;
+  border: solid #00ff00 2px;
+  box-shadow: 20px 10px 10px 5px #323232;
+   opacity: 0.7; 
 }
 
 @media (max-width: 520px) {
   .header__navigation {
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
     margin-top: 12px;
+    padding-bottom: 22px;  
   }
   .header__navigation a{
     border-radius: 10px;
-    height: 50px;
+   
+    /* height: 50px; */
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
   }
-  .content{
-    padding-bottom: 2rem;
-  }
+ 
   .content-photo{
-    margin-top: -122px;
+    margin-top: -192px;
   } 
   
 }

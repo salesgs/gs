@@ -4,15 +4,15 @@ body{
 .main{
   min-height: auto;
   width: 100%;
-
-  /* Flex-box */
+   /* Flex-box */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
    
- 
+     
   background-color: 	#000000;
+
 }
 .item-main{
   border: solid black 2px;
@@ -23,7 +23,7 @@ body{
 .about{
   padding-top: 22px;
   width: 60%;
-  box-shadow: 10px 12px 12px 2px #4b0082;
+  box-shadow: 10px 12px 12px 2px #323232;
   height: auto;
   
   /* Flex-box */
