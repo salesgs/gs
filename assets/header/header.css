@@ -16,11 +16,10 @@
 } 
 .main{
   flex-grow: 2;
- 
 }
 .header {
   width: 100%;
-  min-height: 100vh;
+  min-height: auto;
   background-image: url("../header/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +28,7 @@
 .header__navigation {
   display: flex;
   justify-content: space-around;
- 
+  
   position: sticky;
   top: 0;
 }
@@ -38,6 +37,7 @@
   color: #00ff00;
   border: solid 4px #00ff00;
   border-radius: 20px;
+  font-size: 18px;
   height: 60px;
   width: 120px;
   padding-top: 1rem;

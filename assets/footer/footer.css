@@ -20,10 +20,12 @@
   align-items:center;
 }
 .formations h1{
-  box-shadow: 2px 2px 10px 10px #32e128;
-
+  
+  box-shadow: 0px 10px 10px 10px #0044d0;
+  
   font-family: 'Nunito', sans-serif;
   color: #fff;
+  font-size: 32px;
   padding-bottom: 22px;
   width: 100%;  
   /* flex-box */
@@ -50,16 +52,15 @@
 .formationsTechs h2{
   font-family: 'Nunito', sans-serif;
   color: #fff;
- 
 }
 #senai-ba{
-  width: 60%;
+  width: 40%;
   opacity: 0.7;
   border-radius:20px;
   box-shadow:15px 10px 5px 5px #323232 ;
 }
 #RecodePro{
-  width: 60%;
+  width: 40%;
   opacity: 0.7;
   border-radius:20px;
   box-shadow:15px 10px 5px 5px #323232 ;
@@ -81,9 +82,11 @@
 .techTitle h1{
   color: #fff;
   font-family: 'Nunito', sans-serif;
-  box-shadow: 2px 2px 10px 10px #32e128;
+  font-size: 32px;
+  box-shadow: 10px 10px 10px 10px #0044d0;
   width: 60%;
   height: 80px;
+  padding-bottom: 22px;
 /* flex-box */
  display: flex;
  justify-content: center;
@@ -92,13 +95,14 @@
 }
 .iconsTech{
   margin: 22px;
-  box-shadow: 10px 10px 10px 10px #323232;
+  border-radius: 20px;
+  background-color: #070a11;
+  box-shadow: 10px 12px 12px 2px #0044d0;
   /* flex-box */
   display: flex;
   justify-content: space-around;
   gap: 20px;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap; 
 }
 .iconsTech a{
   text-decoration: none;
@@ -111,7 +115,18 @@
   display: flex;
   gap: 30px;
 }
-
+.html img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.js img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.git img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
 #html{
   box-shadow: 10px 1px  #ff8c00;
 }
@@ -134,12 +149,39 @@
 .git h3{
  text-align: center;
 }
+@media(max-width:1000px){
+  .formations h1{
+    font-size: 22px;
+  }
+  .techTitle h1{
+    font-size: 22px;
+  }
+}
+@media (max-width:800px){
+ #senai-ba{
+  width: 60%;
+ }
+ #RecodePro{
+  width: 60%;
+
+ }
+}
 @media (max-width:580px){
+  #senai-ba{
+    width: 80%;
+  }
+  #RecodePro{
+    width: 80%;   
+  }
   .formationsTechs h2{
     font-size: 22px;  
   }
   .techTitle h1{
     font-size: 18px;
+  }
+  .iconsTech{
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media (max-width:490px){
