@@ -32,7 +32,7 @@ body{
   justify-content: space-around;
   background-color: 			#111111;
   border-radius: 20px;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   
 }
 .about h1{
@@ -249,7 +249,7 @@ body{
 }
 @media(max-width:520px){
   .main{
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
   } 
 }
 @media(max-width:500px){
