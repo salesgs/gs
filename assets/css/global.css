@@ -11,8 +11,10 @@
 body{
   background-color: #000 ;
   color: #fff;
-  
   background:linear-gradient(to right,#000000 ,#3d3c3c);
+}
+a{
+  color: #fff;
 }
 .main{
   margin: 1rem;

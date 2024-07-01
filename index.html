@@ -11,41 +11,131 @@
   <link rel="stylesheet" href="./assets/css/global.css">
   <link rel="stylesheet" href="./assets/css/header.css">
   <link rel="stylesheet" href="./assets/css/acordeon.css">
+  <link rel="stylesheet" href="./assets/css/languages.css">
+  <link rel="stylesheet" href="./assets/css/portifolio.css">
+  <link rel="stylesheet" href="./assets/css/skills.css">
  
   <title>Gs-Developer</title>
 </head>
 <body>
-  <div class="main">
+  <main class="main">
     <header class="header">
             <img 
-            src="./assets/img/gabriel.jpg "
-            alt="Foto do Gabriel Sales" 
-            class="photo"
+              src="./assets/img/gabriel.jpg "
+              alt="Foto do Gabriel Sales" 
+              class="photo"
           >  
         <h1 class="title">Olá, eu sou Gabriel Sales</h1>
         <div class="information">
           <p class="job">Dev Jr</p>
           <p class="location">Candeias(Ba)</p>
-          <p class="phone">(71) 988375554 </p>
-          <p class="email">gabriel09sales@gmail.com</p>
+          <p class="phone">
+              <a href="tel:">(71)988375554</a>
+          </p>
+          <p class="email">
+              <a href="mailto:gabriel09sales@gmail.com">email</a>
+          </p>
         </div>
     </header>
     
-    <section class="acordeon open">
+    
+    <section class="acordeon ">
       <button class="trigger" type="button">
-          Idiomas
-     
+          <h2>Skills</h2>
       </button>
       
       <div class="content">
-        <ul>
-            <li>Português</li>
-            <li>Inglês básico</li>
-        </ul>
+        <div class="skills">
+          <section class="tools">
+              <h3>Tecnologias</h3>
+              <ul>
+                  <li>
+                      <img src="./assets/img/icons/html.svg" alt="html" title="html">
+                  </li>
+                  <li>
+                    <img src="./assets/img/icons/css.svg" alt="css" title="css">
+                </li>
+                <li>
+                  <img src="./assets/img/icons/js.svg" alt="javascript" title="javascript">
+              </li>
+
+                  <li>
+                    <img src="./assets/img/icons/ts.svg" alt="typeScript" title="typeScript">
+                </li>
+                <li>
+                  <img src="./assets/img/icons/git.svg" alt="git" title="git">
+              </li>
+              
+              <li>
+                <img src="./assets/img/icons/java.svg" alt="java" title="java">
+            </li>
+
+            
+              <li>
+                <img src="./assets/img/icons/angular.svg" alt="angular" title="angular">
+            </li>
+
+              <li>
+                <img src="./assets/img/icons/mysql.svg" alt="mysql" title="mysql">
+            </li>
+            
+              </ul>
+          </section>
+  
+          <section class="personal">
+            <h3>Pessoal:</h3>
+            <ul>
+                <li>Comunicativo</li>
+                <li>Analítico</li>
+                <li>Resolução de problemas</li>
+                <li>Trabalho em equipe</li>
+            </ul>
+        </section>
+
+        </div>
 
       </div>
     </section>
-  </div>
+
+
+    <section class="acordeon ">
+      <button class="trigger" type="button">
+          <h2>Idiomas</h2>
+      </button>
+      
+      <div class="content">
+        <ul class="languages">
+            <li>Português</li>
+            <li>Inglês básico</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section class="acordeon ">
+      <button class="trigger" type="button">
+        <h2>Projetos</h2>
+      </button>
+      
+      <div class="content">
+         <ul class="portfolio">
+            <li>
+                <h3 class="title github">
+
+                  Desafio DOM-JS
+                </h3>
+                <a href="https://contador-theta-fawn.vercel.app/" target="_blank">https://contador-theta-fawn.vercel.app/</a>
+            </li>
+            <li>
+              <h3 class="title github">Página de Login</h3>
+              <a href="https://login-salesgs.vercel.app/" target="_blank">https://login-salesgs.vercel.app/</a>
+          </li>
+       
+         </ul>
+      </div>
+    </section>
+
+  </main>
   <script src="./assets/js/jquery.js"></script>
   <script src="./assets/js/acordeon.js"></script>
 </body>

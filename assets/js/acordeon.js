@@ -8,6 +8,5 @@ acordeonTriggers.forEach((triger)=> {
     }else{
       acordeon.classList.add('open');
     }
-
   });
 });
