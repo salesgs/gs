@@ -1,11 +1,8 @@
-async function getInformations(){
+(async function (){
   const response = await fetch('https://raw.githubusercontent.com/salesgs/js-developer-portfolio/main/data/profile.json');
   const data = await response.json(); //estruturação da informação em json
   domHtml(data);
-} 
-getInformations();
-
-
+})();//invoced function
 function domHtml(params){
   const header = document.querySelector('.header');
     header.innerHTML = `<img 
@@ -13,7 +10,7 @@ function domHtml(params){
               alt="Foto do Gabriel Sales" 
               class="photo"
           >  
-        <h1 class="title"> ${params.name}</h1>
+        <h1 class="title">${params.name}</h1>
         <div class="information">
           <p class="job">${params.job}</p>
           <p class="location">${params.location}</p>
